@@ -278,30 +278,30 @@ header {
         display: flex;
     }
 
+    .navegacao {
+        width: 100vw;
+        margin-left: 0;
+        font-size: 0.8rem;
+        position: absolute;
+        top: 0;
+        justify-content: space-between;
+        background-color: #8E2424;
+        padding: 10px 0;
+    }
+
     .logo {
-        width: 4vw;
+        width: 5vw;
         position: absolute;
         align-items: flex-star;
         margin-left: 0;
-        top: 7vw;
-        left: 6vw;
+        top: 11vw;
+        left: 7vw;
     }
 
     .titulo {
         font-size: 0.5rem;
         margin-left: 0;
-        margin-top: 6vw;
-    }
-
-    .navegacao {
-        width: 100vw;
-        margin-left: 0;
-        font-size: 0.6rem;
-        position: absolute;
-        top: 0;
-        justify-content: center;
-        background-color: #8E2424;
-        padding: 6px 0;
+        margin-top: 10vw;
     }
 
     .navegacao__link {
@@ -312,7 +312,7 @@ header {
         margin-left: 0;
         margin-right: 0;
         font-size: 0.6rem;
-        margin-left: 60vw;
+        margin-left: 55vw;
         margin-right: 3vw;
     }
 
@@ -326,12 +326,18 @@ header {
         width: 80vw;
     }
 
+    .sobre {
+        height: auto;
+    }
+
     .sobre__titulo {
         text-align: center;
+        margin-top: 1rem;
     }
 
     .sobre__subtitulo {
         text-align: center;
+        font-size: 32px;
     }
 
     .sobre__texto {
@@ -364,6 +370,10 @@ header {
         text-align: center;
     }
 
+    .vagas__titulo {
+        margin-top: 50px;
+    }
+
     .vagas__subtitulo {
         text-align: center;
     }
@@ -373,10 +383,44 @@ header {
     }
 
     .vagas__bloco {
-        padding: 15px 100px 15px 10px;
+        padding: 10px 50px 10px 10px;
     }
 
     .colaborador {
+        margin: 50px 0 0;
+    }
+
+    .colaborador__titulo {
+        margin-top: 10px;
+    }
+
+    .colaborador__subtitulo {
+        font-size: 24px;
+    }
+
+    .colaborador__imagem {
+        margin-top: 25px;
+    }
+
+    .rodape__formulario {
         margin: 0;
+    }
+
+    .vagas__imagem {
+        width: 100vw;
+    }
+
+    .rodape__titulo {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 5rem;
+    }
+
+    .rodape__descricao {
+        text-align: center;
+    }
+
+    .rodape {
+        height: auto;
     }
 }
